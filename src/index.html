@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="da">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+		<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+		<meta name="Wheel of Folketinget" content="1.0.0" />
+		<meta name="theme-color" content="#ffffff" />
+
+		<title>Wheel of Folketinget</title>
+
+		<!-- Hosted -->
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Round" rel="stylesheet">
+		<link href="styles.css" rel="stylesheet">
+
+		<meta name="application-name" content="Wheel of Folketinget" />
+	</head>
+
+	<body>
+		<main id="view" class="view">
+			<article>
+				<section>
+					<h1>Wheel of Folketinget</h1>
+					<h2 id="titleText">Hvem skal jeg stemme på?</h2>
+				</section>
+				<section>
+					<div class="outerWheel shadow8dp" id="outerWheel">
+						<i class="material-icons wheelPin" id="wheelPin">place</i>
+						<canvas id="wheel" width="500" height="500"></canvas>
+						<button class="shadow2dp" onclick="App.startWheel()">FIND LYKKEN</button>
+					</div>
+				</section>
+
+				<section>
+					<small>
+						<span>Rune L. Jensen | </span>
+						<a href="https://github.com/lyngbach/wheel-of-folketinget" target="_blank">
+							<img src="github.png" class="githubLogo" height="16" /> GitHub</small>
+						</a>
+				</section>
+			</article>
+		</main>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+		<script src="Winwheel.min.js"></script>
+		<script src="app.js"></script>
+	</body>
+</html>

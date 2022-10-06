@@ -1,0 +1,13 @@
+
+# Folders only used for development purpose
+node_modules/
+data/
+
+# Mac stuff
+.DS_Store
+
+# distribution files when running the build command
+dist/
+
+# dotenv environment variables file
+.env

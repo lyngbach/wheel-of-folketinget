@@ -1,0 +1,14 @@
+{
+	"name": "wheel-of-folketinget",
+	"version": "1.0.0",
+	"description": "Simple little fun project for the danish election",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"mini-jsx": "^3.0.4"
+	}
+}
